@@ -20,13 +20,13 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:212222020014  
 */
 ```
 
 ## Sourcecode.java:
-
+```
 class Student {
     String name = "John";
     String address = "Chennai";
@@ -38,7 +38,7 @@ public class Test {
         System.out.println("Address: " + obj.address);
     }
 }
-
+```
 
 
 
