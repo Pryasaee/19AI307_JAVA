@@ -22,6 +22,18 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+public class StringBuilderExample {
+    public static void main(String[] args) 
+        String str1 = "hello";
+        StringBuilder sb = new StringBuilder(str1);  
+        System.out.println("StringBuilder content: " + sb.toString());  
+        System.out.println("Length of StringBuilder: " + sb.length());  
+        System.out.println("Memory address of StringBuilder object: " + sb.hashCode());
+    }
+}
+```
+
 
 
 
@@ -30,6 +42,13 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Input	
+hello
+Result
+5
+21
+```
 
 
 
