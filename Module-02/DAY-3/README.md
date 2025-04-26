@@ -32,6 +32,26 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+
+public class ArrayExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] values = new int[5];
+        System.out.println("Enter 5 values:");
+        for (int i = 0; i < 5; i++) {
+            values[i] = scanner.nextInt(); 
+        }
+        System.out.println("Elements in Array are:");
+        for (int i = 0; i < 5; i++) {
+            System.out.print(values[i] + " ");  
+        }
+        scanner.close();
+    }
+}
+```
+
 
 
 
@@ -40,6 +60,15 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Enter 5 values:
+10
+20
+30
+40
+50
+Elements in Array are:
+10 20 30 40 50
+
 
 
 
