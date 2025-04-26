@@ -24,6 +24,16 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String s=sc.nextLine();
+        System.out.println("The size of the String is "+s.length());
+    }
+}
+```
 
 
 
@@ -32,7 +42,12 @@ RegisterNumber:
 
 
 ## OUTPUT:
-
+```
+Input	
+pot
+Result
+The size of the String is 3
+```
 
 
 ## RESULT:
