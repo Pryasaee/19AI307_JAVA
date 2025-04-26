@@ -30,6 +30,19 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String a=sc.nextLine();
+        String b=sc.nextLine();
+        StringBuffer s=new StringBuffer(a+" ");
+        s.append(b);
+        System.out.println(s);
+    }
+}
+```
 
 
 
@@ -38,6 +51,14 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Input	
+Hello
+Java
+Result
+Hello Java
+```
+
 
 
 
