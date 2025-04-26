@@ -28,6 +28,28 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+public class Student {
+    static int age = 18;  
+    String name;         
+    
+    Student(String name) {
+        this.name = name;
+    }
+    public void displayDetails() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student("Alice");  
+        Student s2 = new Student("Bob");    
+
+        s1.displayDetails();  
+        s2.displayDetails();  
+    }
+}
+```
+
 
 
 
@@ -36,6 +58,9 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Name: Alice, Age: 18
+Name: Bob, Age: 18
+
 
 
 
