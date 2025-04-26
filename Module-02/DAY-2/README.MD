@@ -32,6 +32,21 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+public class A 
+{ 
+    private void display() 
+    { 
+        int a=8,b=9;
+        System.out.println(a+b); 
+    }
+    public static void main(String args[])
+    {
+        A obj = new A();
+        obj.display();
+    }
+}
+```
 
 
 
@@ -40,6 +55,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+17
 
 
 
