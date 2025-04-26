@@ -29,6 +29,22 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+
+public class Replace {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+        StringBuilder sb = new StringBuilder(str);
+        sb.replace(1, 4, "Java");
+        System.out.println("Modified string: " + sb.toString());
+        sc.close();
+    }
+}
+```
+
 
 
 
@@ -37,6 +53,14 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Input:
+Enter a string: Hello World
+Output:
+Modified string: HJavao World
+```
+
+
 
 
 
