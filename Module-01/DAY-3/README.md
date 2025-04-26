@@ -27,6 +27,27 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+
+public class Demo
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+       
+       int num=sc.nextInt();
+        if(num==0){
+        System.out.println("Given number is Zero");
+        }
+        else
+        {
+            System.out.println(num+" is Non-Zero");
+        }
+    }
+}
+```
+
 
 
 
@@ -35,6 +56,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Given number is Zero
 
 
 
