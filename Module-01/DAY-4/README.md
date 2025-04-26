@@ -30,6 +30,21 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+public class Area {
+    public void calculateArea() {
+        int length = 10; 
+        int breadth = 20; 
+        int area = length * breadth;
+        System.out.println("Area of Rectangle: " + area);
+    }
+
+    public static void main(String[] args) {
+        Area obj = new Area();
+        obj.calculateArea();
+    }
+}
+```
 
 
 
@@ -38,6 +53,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Area of Rectangle: 200
+
 
 
 
