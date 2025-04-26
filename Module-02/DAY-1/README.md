@@ -27,6 +27,25 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;  
+public class CalculateCube  
+{  
+   
+static void cube()  
+{  
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+int y=x*x*x;
+
+System.out.println("Cube is: "+y);    
+}  
+public static void main(String args[])  
+{  
+cube();    
+}  
+}
+```
 
 
 
@@ -35,6 +54,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Cube is: 125
+
 
 
 
