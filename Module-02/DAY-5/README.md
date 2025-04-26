@@ -24,6 +24,31 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+
+public class FindSmallestElement {
+    public static void main(String[] args) {
+        // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+        int size = scanner.nextInt();
+        int[] arr = new int[size];
+       
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextInt();
+        }
+        int smallest = arr[0]; 
+        for (int i = 1; i < size; i++) {
+            if (arr[i] < smallest) {
+                smallest = arr[i]; 
+            }
+        }
+        System.out.println("Smallest Number = " + smallest);
+        scanner.close();
+    }
+}
+```
+
 
 
 
@@ -32,6 +57,13 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Input	
+3
+56
+45
+90
+Result
+Smallest Number = 45
 
 
 
