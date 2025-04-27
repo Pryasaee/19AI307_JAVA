@@ -36,6 +36,41 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+class Person {
+    int emp_id;
+    String name;
+    String dept;
+}
+class Employee extends Person {
+    void getDetails() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Employee Name: ");
+        name = sc.nextLine();
+        System.out.print("Enter Employee ID: ");
+        emp_id = sc.nextInt();
+        sc.nextLine(); 
+        System.out.print("Enter Department: ");
+        dept = sc.nextLine();
+    }
+
+    void display() {
+        System.out.println("\nEmployee Details:");
+        System.out.println("Name: " + name);
+        System.out.println("Employee ID: " + emp_id);
+        System.out.println("Department: " + dept);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Employee emp = new Employee();
+        emp.getDetails();
+        emp.display();
+    }
+}
+```
+
 
 
 
@@ -44,6 +79,17 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Enter Employee Name: John Doe
+Enter Employee ID: 12345
+Enter Department: IT
+
+Employee Details:
+Name: John Doe
+Employee ID: 12345
+Department: IT
+```
+
 
 
 
