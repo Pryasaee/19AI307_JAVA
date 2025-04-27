@@ -33,6 +33,34 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```import java.util.*;
+class Cylinder{
+    private double radius;
+    private double height;
+    public void setRadius(double radius){
+        this.radius=radius;
+    }
+    public void setHeight(double height){
+        this.height=height;
+    }
+    public double getVolume(){
+        double pi=22.0/7.0;
+        return pi*radius*radius*height;
+    }
+}
+public class CyclinderVolume{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        Cylinder cylinder = new Cylinder();
+        double radius=sc.nextDouble();
+        cylinder.setRadius(radius);
+        double height=sc.nextDouble();
+        cylinder.setHeight(height);
+        System.out.println("volume of Cylinder is: "+cylinder.getVolume());
+        
+    }
+}
+```
 
 
 
@@ -41,6 +69,13 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Input	
+3
+4
+Result
+volume of Cylinder is: 113.14285714285714
+```
 
 
 
