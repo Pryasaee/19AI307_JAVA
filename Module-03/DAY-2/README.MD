@@ -51,13 +51,12 @@ public class Main{
 
 
 ## OUTPUT:
-```
-Input	
+Input:	
 Hello
 Java
-Result
+Result:
 Hello Java
-```
+
 
 
 
