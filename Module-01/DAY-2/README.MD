@@ -50,6 +50,10 @@ public class Demo
 
 
 ## OUTPUT:
+Input:
+30
+100
+Result:
 true
 
 
