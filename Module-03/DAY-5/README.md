@@ -42,13 +42,12 @@ public class StringBuilderExample {
 
 
 ## OUTPUT:
-```
-Input	
+Input:
 hello
-Result
+Result:
 5
 21
-```
+
 
 
 
