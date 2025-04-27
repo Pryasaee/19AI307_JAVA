@@ -69,13 +69,12 @@ public class CyclinderVolume{
 
 
 ## OUTPUT:
-```
-Input	
+Input:	
 3
 4
-Result
+Result:
 volume of Cylinder is: 113.14285714285714
-```
+
 
 
 
