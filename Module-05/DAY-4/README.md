@@ -54,12 +54,11 @@ public class Main {
 
 
 ## OUTPUT:
-```
-Input	
+Input:
 5
-Result
+Result:
 Factorial is:120
-```
+
 
 
 
