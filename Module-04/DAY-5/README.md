@@ -3,6 +3,7 @@
 To write a parameterized constructor in the Employee class that initializes name and designation, and then call getter methods in the main() method of another class (Sample) to display the values.
 
 ## ALGORITHM :
+```
 
 	1.	Start the program.
 2.	Define a class Employee:
@@ -20,6 +21,7 @@ To write a parameterized constructor in the Employee class that initializes name
      c.	Call getDesg() and store the result in a variable empDesg.
 9.	Print the values of empName and empDesg.
 10.	End the program
+```
 
 
 ## PROGRAM:
@@ -32,6 +34,32 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+class Employee {
+    private String name;
+    private String designation;
+    Employee(String name, String designation) {
+        this.name = name;
+        this.designation = designation;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getDesg() {
+        return designation;
+    }
+}
+public class Sample {
+    public static void main(String[] args) {
+        Employee emp = new Employee("John", "Asst.Manager");
+        String empName = emp.getName();
+        String empDesg = emp.getDesg();
+        System.out.println("Employee Name: " + empName);
+        System.out.println("Employee Designation: " + empDesg);
+    }
+}
+```
+
 
 
 
@@ -40,6 +68,11 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Employee Name: John
+Employee Designation: Asst.Manager
+```
+
 
 
 
