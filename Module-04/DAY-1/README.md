@@ -26,6 +26,21 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+class circum {
+    int l = 5, w = 6;
+    circum() {
+        int circumference = 2 * (l + w);
+        System.out.println("Area of First Rectangle: " + circumference);
+        System.out.println("Area of Second Rectangle: " + circumference);
+    }
+
+    public static void main(String[] args) {
+        circum sc = new circum();
+    }
+}
+```
+
 
 
 
@@ -34,6 +49,11 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Area of First Rectangle: 22
+Area of Second Rectangle: 22
+```
+
 
 
 
