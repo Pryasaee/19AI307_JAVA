@@ -35,6 +35,35 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+    String Fname;
+    String Mname;
+    String Lname;
+
+    void dispName(String fn, String mn, String ln) {
+        System.out.println("Full Name: " + fn + " " + mn + " " + ln);
+    }
+}
+class Employee {
+    final int Emp_Id; 
+    static Name obj = new Name(); 
+
+    Employee(int id) {
+        Emp_Id = id; 
+    }
+    void disp() {
+        System.out.println("Employee ID: " + Emp_Id);
+        obj.dispName("B", "Leo", "John");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Employee emp = new Employee(101);
+        emp.disp();
+    }
+}
+```
+
 
 
 
@@ -43,6 +72,11 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Employee ID: 101
+Full Name: B Leo John
+```
+
 
 
 
