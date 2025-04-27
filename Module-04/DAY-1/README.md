@@ -49,10 +49,10 @@ class circum {
 
 
 ## OUTPUT:
-```
+
 Area of First Rectangle: 22
 Area of Second Rectangle: 22
-```
+
 
 
 
