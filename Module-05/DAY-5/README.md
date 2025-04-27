@@ -62,14 +62,13 @@ public class ArrayProgram{
 
 
 ## OUTPUT:
-```
-Input	
+Input:
 2
 3
 4
-Result
+Result:
 Largest element = 4
-```
+
 
 
 
