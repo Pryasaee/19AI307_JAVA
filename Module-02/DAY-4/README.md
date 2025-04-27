@@ -55,7 +55,7 @@ public class Sum2DArray{
 
 
 ## OUTPUT:
-Input	
+Input:
 2
 3
 5
@@ -64,7 +64,7 @@ Input
 9
 9
 4
-Result
+Result:
 The sum of all values in the 2D array is: 42
 
 
