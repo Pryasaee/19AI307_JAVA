@@ -62,13 +62,12 @@ public static void main(String args[]){
 
 
 ## OUTPUT:
-```
-Input	
+Input:	
 5
 5
-Result
+Result:
 Sum is 10
-```
+
 
 
 
