@@ -32,6 +32,48 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+
+class Employee {
+    private String name1;
+    private String name2;
+
+    void setname(String n1) {
+        name1 = n1;
+    }
+
+    void setname2(String n2) {
+        name2 = n2;
+    }
+
+    String get1() {
+        return name1;
+    }
+
+    String get2() {
+        return name2;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Name: ");
+        String name1 = sc.nextLine();
+        System.out.print("Enter Location: ");
+        String name2 = sc.nextLine();
+
+        Employee hl = new Employee();
+        hl.setname(name1);
+        hl.setname2(name2);
+
+        System.out.println("Name: " + hl.get1());
+        System.out.println("Location: " + hl.get2());
+    }
+}
+```
 
 
 
@@ -40,6 +82,11 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Enter Name: Alice
+Enter Location: London
+Name: Alice
+Location: London
+
 
 
 
