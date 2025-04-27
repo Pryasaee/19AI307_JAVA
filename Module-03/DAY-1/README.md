@@ -42,12 +42,11 @@ public class Main{
 
 
 ## OUTPUT:
-```
-Input	
+Input:
 pot
-Result
+Result:
 The size of the String is 3
-```
+
 
 
 ## RESULT:
