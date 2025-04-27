@@ -68,10 +68,10 @@ public class Sample {
 
 
 ## OUTPUT:
-```
+
 Employee Name: John
 Employee Designation: Asst.Manager
-```
+
 
 
 
