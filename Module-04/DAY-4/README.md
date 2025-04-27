@@ -72,10 +72,10 @@ public class Main {
 
 
 ## OUTPUT:
-```
+
 Employee ID: 101
 Full Name: B Leo John
-```
+
 
 
 
