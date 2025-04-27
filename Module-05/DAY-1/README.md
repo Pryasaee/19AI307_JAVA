@@ -82,12 +82,12 @@ public class Main {
 
 
 ## OUTPUT:
-```
+
 Enter Name: Alice
 Enter Location: London
 Name: Alice
 Location: London
-```
+
 
 
 
