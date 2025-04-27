@@ -27,6 +27,33 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+class fun{
+    public int largest(int[] array){
+        int max=array[0];
+        for(int i=1;i<array.length;i++){
+            if(max<array[i])
+            max=array[i];
+        }
+        return max;
+    }
+}
+public class ArrayProgram{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int size=0;
+        int arr[]=null;
+        size=sc.nextInt();
+        arr=new int[size];
+        for(int i=0;i<arr.length;i++){
+            arr[i]=sc.nextInt();
+        }
+        fun obj=new fun();
+        System.out.println("Largest element = " + obj.largest(arr));
+    }
+}
+```
 
 
 
@@ -35,6 +62,14 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Input	
+2
+3
+4
+Result
+Largest element = 4
+```
 
 
 
