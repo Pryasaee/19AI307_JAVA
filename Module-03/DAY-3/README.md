@@ -53,12 +53,11 @@ public class Replace {
 
 
 ## OUTPUT:
-```
 Input:
 Enter a string: Hello World
-Output:
+Result:
 Modified string: HJavao World
-```
+
 
 
 
