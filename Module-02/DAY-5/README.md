@@ -57,12 +57,12 @@ public class FindSmallestElement {
 
 
 ## OUTPUT:
-Input	
+Input:
 3
 56
 45
 90
-Result
+Result:
 Smallest Number = 45
 
 
