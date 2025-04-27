@@ -52,14 +52,13 @@ public class Tok {
 
 
 ## OUTPUT:
-```
 Tokens are:
 My
 name
 is
 Java
 Programming
-```
+
 
 
 
