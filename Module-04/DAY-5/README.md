@@ -3,7 +3,7 @@
 To write a parameterized constructor in the Employee class that initializes name and designation, and then call getter methods in the main() method of another class (Sample) to display the values.
 
 ## ALGORITHM :
-```
+
 
 	1.	Start the program.
 2.	Define a class Employee:
@@ -21,7 +21,7 @@ To write a parameterized constructor in the Employee class that initializes name
      c.	Call getDesg() and store the result in a variable empDesg.
 9.	Print the values of empName and empDesg.
 10.	End the program
-```
+
 
 
 ## PROGRAM:
