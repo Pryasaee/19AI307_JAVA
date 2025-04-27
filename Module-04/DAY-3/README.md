@@ -65,10 +65,9 @@ public class Main {
 
 
 ## OUTPUT:
-```
 I am a Vehicle
 I am a Car
-```
+
 
 
 
