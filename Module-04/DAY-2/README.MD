@@ -79,7 +79,7 @@ public class Main {
 
 
 ## OUTPUT:
-```
+
 Enter Employee Name: John Doe
 Enter Employee ID: 12345
 Enter Department: IT
@@ -88,7 +88,7 @@ Employee Details:
 Name: John Doe
 Employee ID: 12345
 Department: IT
-```
+
 
 
 
