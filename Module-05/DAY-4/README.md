@@ -25,7 +25,28 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
-
+```
+import java.util.*;
+class factorial{
+    int fact(int a) {
+        int i, f = 1;
+        for (i = 1; i <= a; i++) {
+            f = f * i;
+        }
+        return f;
+    }
+}
+public class Main {
+    public static void main(String args[]) {
+        int a, f;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        factorial ff = new factorial();
+        f = ff.fact(a);
+        System.out.println("Factorial is:" + f);
+    }
+}
+```
 
 
 
@@ -33,6 +54,13 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Input	
+5
+Result
+Factorial is:120
+```
+
 
 
 
