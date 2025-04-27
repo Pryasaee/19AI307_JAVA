@@ -33,6 +33,30 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+class College {
+    void display() {
+        System.out.println("I am a Vehicle");
+    }
+}
+class Student extends College {
+    void display() {
+        System.out.println("I am a Car");
+    }
+
+    void print() {
+        super.display(); 
+        this.display();  
+}
+public class Main {
+    public static void main(String[] args) {
+        Student sc = new Student();
+        sc.print();
+    }
+}
+```
+
+
 
 
 
@@ -41,6 +65,10 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+I am a Vehicle
+I am a Car
+```
 
 
 
