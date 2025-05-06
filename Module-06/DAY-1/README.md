@@ -29,6 +29,27 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+class Name {
+    private String value = "Johnson";
+    public void display() {
+        class Inner {
+            public void print() {
+                System.out.println("Name given in Outer Class is " + value);
+            }
+        }
+        Inner inner = new Inner();
+        inner.print();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Name name = new Name();
+        name.display();
+    }
+}
+```
 
 
 
@@ -38,6 +59,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+Name given in Outer Class is Johnson
 
 
 ## RESULT:
