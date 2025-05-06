@@ -21,6 +21,29 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+File 1
+package pack;
+
+public class A {
+    public void msg() {
+        System.out.println("Hello from class A in package pack.");
+    }
+}
+File 2
+package mypack;
+
+import pack.A;
+
+public class B {
+    public static void main(String[] args) {
+        A a = new A();
+        a.msg();
+    }
+}
+```
+
+
 
 
 
@@ -29,6 +52,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Hello from class A in package pack.
+
 
 
 
