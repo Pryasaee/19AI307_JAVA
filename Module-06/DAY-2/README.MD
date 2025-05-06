@@ -28,6 +28,39 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+class Shape{
+    void print(){
+        System.out.println("Shapes Class");
+    }
+}
+class Circle extends Shape{
+    private int radius;
+    public void set(){
+        Scanner sc=new Scanner(System.in);
+        radius=sc.nextInt();
+    }
+    public int getRad(){
+        return radius;
+    }
+}
+class Area extends Circle{
+    void calc(){
+        int radius=getRad();
+        System.out.println("Area of Circle is " + 3.14 * radius * radius);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Area obj=new Area();
+        obj.print();
+        obj.set();
+        obj.calc();
+    }
+}
+```
+
 
 
 
@@ -36,6 +69,9 @@ RegisterNumber:
 
 
 ## OUTPUT:
+Input:2
+Result:Shapes Class
+Area of Circle is 12.56
 
 
 
