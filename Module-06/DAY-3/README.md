@@ -30,6 +30,34 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+class Parent {
+    void show() {
+        System.out.println("This is Parent Class");
+    }
+}
+class Child1 extends Parent {
+    void print() {
+        System.out.println("This is Child1 Class");
+    }
+}
+class Child2 extends Parent {
+    void display() {
+        System.out.println("This is Child2 Class");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Child1 child = new Child1();
+        child.show();
+        child.print();
+        Child2 chi = new Child2();
+        chi.show();
+        chi.display();
+    }
+}
+```
+
 
 
 
@@ -38,6 +66,11 @@ RegisterNumber:
 
 
 ## OUTPUT:
+This is Parent Class
+This is Child1 Class
+This is Parent Class
+This is Child2 Class
+
 
 
 
