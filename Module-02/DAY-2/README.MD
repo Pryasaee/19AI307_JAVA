@@ -1,22 +1,16 @@
 # Ex.No:2(B) ACCESS MODIFIERS
 
 ## AIM:
-To develop a Java Program to display the addition number using private modifiers only.
-
+To demonstrate the default access modifier in Java using two classes (BaseClass and Main) by performing addition of two variables a and b, and printing the result c
 ## ALGORITHM :
-1.	Start the program.
-2.	Define a class named `addition`
-3.	Declare two private integer variables, `num1` and `num2`
-4.	Define a private method `add()` that:
-a)	Returns the sum of `num1` and `num2`
-5.	Define a public method `display(int n1, int n2)` that:
-a)	Assigns `n1` to `num1` and `n2` to `num2`
-b)	Calls the `add()` method and prints the result using `System.out.println`
-6.	Define the `main` method as static
-a)	Create an instance of the `addition` class called `ad`
-b)	Call the `display(8, 9)` method on the `ad` object
-7.	End
-
+1.Start the program.
+2.Create a class named BaseClass.
+3.Declare two default-access variables a = 3 and b = 5.
+4.Create a default-access method display() that adds a and b, stores the result in variable c, and prints c.
+5.Create a second class named Main.
+6.In the main() method, create an object of BaseClass.
+7.Call the display() method using the object.
+8.End the program.
 
 
 
@@ -33,16 +27,18 @@ RegisterNumber:
 
 ## Sourcecode.java:
 ```
-public class A 
-{ 
-    private void display() 
-    { 
-        int a=8,b=9;
-        System.out.println(a+b); 
-    }
-    public static void main(String args[])
+class BaseClass
+{
+    void display()
     {
-        A obj = new A();
+        int a=3,b=5;
+        int c=a+b;
+        System.out.println(c);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        BaseClass obj=new BaseClass();
         obj.display();
     }
 }
@@ -55,7 +51,8 @@ public class A
 
 
 ## OUTPUT:
-17
+
+
 
 
 
