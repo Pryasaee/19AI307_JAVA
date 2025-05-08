@@ -22,7 +22,30 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
-
+```
+import java.io.StringReader;
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String data=sc.nextLine();
+        System.out.println("Original data: " + data);
+        try{
+            int k=0;
+            StringReader input=new StringReader(data);
+            input.skip(2);
+            System.out.println("Data after skipping");
+            while((k=input.read())!=-1){
+                System.out.print((char)k);
+            }
+            input.close();
+        }
+        catch(Exception e){
+            e.getStackTrace();
+        }
+    }
+}
+```
 
 
 
@@ -30,6 +53,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/100b7fbd-8c54-4c53-853e-99745bf19bf7)
 
 
 
