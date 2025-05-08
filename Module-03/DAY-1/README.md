@@ -42,10 +42,7 @@ public class Main{
 
 
 ## OUTPUT:
-Input:
-pot
-Result:
-The size of the String is 3
+![image](https://github.com/user-attachments/assets/29c92124-759c-4bec-a583-2dd21f4676ad)
 
 
 
