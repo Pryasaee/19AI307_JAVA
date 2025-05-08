@@ -59,5 +59,4 @@ public class Demo{
 
 
 ## RESULT:
-Thus, the Java program to check given number is zero or not was created successfully.
-
+Thus, the Java program to check whether a number is positive or negative was successfully executed.
