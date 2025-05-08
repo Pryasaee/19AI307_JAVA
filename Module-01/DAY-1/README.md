@@ -45,8 +45,8 @@ public class Test {
 
 ## OUTPUT:
 
-Name: John
-Address: Chennai
+![image](https://github.com/user-attachments/assets/49f0cbec-0e16-4b41-82ec-54f83f0bd62b)
+
 
 ## RESULT:
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
