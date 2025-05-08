@@ -55,18 +55,8 @@ public class Sum2DArray{
 
 
 ## OUTPUT:
-Input:
-2
-3
-5
-7
-8
-9
-9
-4
-Result:
-The sum of all values in the 2D array is: 42
 
+![image](https://github.com/user-attachments/assets/c6740b80-bd85-415a-ab1f-1de9adbeef48)
 
 
 ## RESULT:
