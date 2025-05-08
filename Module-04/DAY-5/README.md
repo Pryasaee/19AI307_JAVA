@@ -1,26 +1,15 @@
 # Ex.No:4(E)  PARAMETERIZED CONSTRUCTOR
 ## AIM:
-To write a parameterized constructor in the Employee class that initializes name and designation, and then call getter methods in the main() method of another class (Sample) to display the values.
+To demonstrate inheritance by creating a parent class and a child class, where the child class inherits from the parent class, and calling the methods using objects of both classes.
 
 ## ALGORITHM :
+1.Define a parent class with a method that prints "This is parent class".
+2.Define a subclass that inherits from the parent class and has its own method that prints "This is child class".
+3.Create an object of the parent class and call its method.
+4.Create an object of the child class and call its method.
+5.Create an object of the child class and call the method of the parent class using this object.
 
 
-	1.	Start the program.
-2.	Define a class Employee:
-    a.	  Declare two private string variables: name and designation.
-3.	Create a parameterized constructor in Employee:
-4.	Accept two parameters: name and designation.
-5.	Assign the parameters to the class fields.
-6.	Define two getter methods in the Employee class:
-     a.	getName() – returns the value of name.
-     b.	getDesg() – returns the value of designation.
-7.	Create another class Sample with the main method.
-8.	Inside the main method:
-     a.	Create an object of Employee using the constructor and pass "John" and "Asst.Manager" as arguments.
-     b.	Call getName() and store the result in a variable empName.
-     c.	Call getDesg() and store the result in a variable empDesg.
-9.	Print the values of empName and empDesg.
-10.	End the program
 
 
 
@@ -35,29 +24,31 @@ RegisterNumber:
 
 ## Sourcecode.java:
 ```
-class Employee {
-    private String name;
-    private String designation;
-    Employee(String name, String designation) {
-        this.name = name;
-        this.designation = designation;
-    }
-    public String getName() {
-        return name;
-    }
-    public String getDesg() {
-        return designation;
-    }
+class Pclass{
+  public void pmethod(){
+      System.out.println("This is parent class");
+   
+  }
 }
-public class Sample {
-    public static void main(String[] args) {
-        Employee emp = new Employee("John", "Asst.Manager");
-        String empName = emp.getName();
-        String empDesg = emp.getDesg();
-        System.out.println("Employee Name: " + empName);
-        System.out.println("Employee Designation: " + empDesg);
-    }
+
+class Cclass extends Pclass{
+  public void cmethod(){
+      System.out.println("This is child class");
+    
+  }
 }
+
+public class Ans{
+  public static void main(String[] args){
+      Pclass p=new Pclass();
+      p.pmethod();
+      Cclass c=new Cclass();
+      c.cmethod();
+      Cclass child=new Cclass();
+      child.pmethod();
+  
+  }
+}	
 ```
 
 
@@ -69,16 +60,12 @@ public class Sample {
 
 ## OUTPUT:
 
-Employee Name: John
-Employee Designation: Asst.Manager
 
-
+![image](https://github.com/user-attachments/assets/34d82cb6-f0c3-4a1b-a657-514ad370f0ea)
 
 
 
 ## RESULT:
-Thus, the  java program was successfully demonstrates the use of a parameterized constructor to initialize class fields.
-
- 
+The program prints "This is parent class", "This is child class", and "This is parent class" in sequence.
 
 
