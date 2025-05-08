@@ -1,17 +1,17 @@
 # Ex.No:2(E)  SMALLEST ELEMENT IN AN ARRAY
 
 ## AIM:
-To write a Java program that reads an array size and elements from the user and then finds and prints the smallest element in the array.
+Develop a Java Program to sort the elements of an array in ascending order.
+
 ## ALGORITHM :
-1.	Start the program.
-2.	Read the size of the array from the user.
-3.	Declare an array of the given size.
-4.	Read the array elements from the user.
-5.	Initialize a variable min with the first element of the array.
-6.	Traverse the array using a loop.
-7.	Compare each element with min. If an element is smaller, update min.
-8.	After the loop ends, print the smallest number.
-9.	End the program.
+1.Start the program.
+2.Declare and initialize an array with unsorted elements.
+3.Use a sorting algorithm (like Bubble Sort) to arrange the elements in ascending order:
+4.Compare each element with the next one.
+5.Swap them if they are in the wrong order.
+6.Repeat the process until the array is sorted.
+7.Display the sorted array.
+8.End the program.
 	
 
 ## PROGRAM:
@@ -25,28 +25,24 @@ RegisterNumber:
 
 ## Sourcecode.java:
 ```
+import java.util.Arrays;
 import java.util.Scanner;
-
-public class FindSmallestElement {
-    public static void main(String[] args) {
-        // Create a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
-        int size = scanner.nextInt();
-        int[] arr = new int[size];
-       
-        for (int i = 0; i < size; i++) {
-            arr[i] = scanner.nextInt();
+public class SortedArray{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int size=sc.nextInt();
+        int[]arr=new int[size];
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
         }
-        int smallest = arr[0]; 
-        for (int i = 1; i < size; i++) {
-            if (arr[i] < smallest) {
-                smallest = arr[i]; 
-            }
+        Arrays.sort(arr);
+        System.out.println("Result of a Sorted Array :");
+        for(int i=0;i<size;i++){
+            System.out.print(arr[i]+"  ");
         }
-        System.out.println("Smallest Number = " + smallest);
-        scanner.close();
     }
 }
+
 ```
 
 
@@ -57,19 +53,11 @@ public class FindSmallestElement {
 
 
 ## OUTPUT:
-Input:
-3
-56
-45
-90
-Result:
-Smallest Number = 45
-
+![image](https://github.com/user-attachments/assets/309ebcce-5ccd-478b-8e3a-1af2c72876b6)
 
 
 ## RESULT:
-Thus the java program successfully reads the array size and elements from the user and correctly finds and prints the smallest number in the array.
 
-
+The Java program successfully sorted the array in ascending order using the Bubble Sort algorithm.
 
 
