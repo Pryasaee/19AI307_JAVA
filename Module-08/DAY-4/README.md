@@ -25,7 +25,19 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
-
+```
+FileInputStream fi=new FileInputStream("sample.txt");
+BufferedInputStream bi=new BufferedInputStream(fi);
+Scanner sc=new Scanner(System.in);
+int sk=sc.nextInt();
+bi.skip(sk);
+System.out.println("Contents after skipping "+sk+" bytes:");
+int a=0;
+while((a=bi.read()) != -1)
+System.out.print((char)a);
+bi.close();
+fi.close();
+```
 
 
 
@@ -34,6 +46,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/9cbbf6f4-ffac-4905-97ab-18fef3f33078)
 
 
 ## RESULT:
