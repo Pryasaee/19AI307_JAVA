@@ -51,13 +51,6 @@ public class Main{
 
 
 ## OUTPUT:
-Input:	
-Hello
-Java
-Result:
-Hello Java
-
-
 
 
 
