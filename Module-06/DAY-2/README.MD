@@ -1,21 +1,12 @@
 # Ex.No:6(B) MULTI-LEVEL INHERITANCE
 
 ## AIM:
-To Develop a Java program to perform Multilevel Inheritance to calculate the area of circle..
-
+To demonstrate class inheritance in Java by creating a GrandParent, Parent, and Child class, where each class has its own constructor, and the constructors are accessed using a Child class object.
 ## ALGORITHM :
-1.	Start the Program.
-2.	Define class `Shapes`:
--	a) Method `print_shape()` to print "Shapes Class"
-3.	Define class `Circle` that extends `Shapes`:
--	a) Declare integer `rad`
--	b) Method `get()` to read `rad` from user input
-4.	Define class `Area` that extends `Circle`:
--	a) Method `cal()` to calculate `result = 3.14 * rad * rad` and print "Area of Circle is " followed by `result`
-5.	In `Main` class `main` method:
--	a) Create `Area` object `obj`
--	b) Call `print_shape()`, `get()`, and `cal()` on `obj` to display shape type, read radius, and calculate area
-6.	End
+1.Create a GrandParent class with a constructor that displays "Grand Parent Class".
+2.Create a Parent class that extends GrandParent and has its own constructor to display "Parent Class".
+3.Create a Child class that extends Parent and has its own constructor to display "Child Class".
+4.In the Main class, create a Child class object and access all the constructors, displaying the respective messages.
 
 
 ## PROGRAM:
@@ -29,34 +20,24 @@ RegisterNumber:
 
 ## Sourcecode.java:
 ```
-import java.util.*;
-class Shape{
-    void print(){
-        System.out.println("Shapes Class");
+class GrandParent{
+    public GrandParent(){
+        System.out.println("Grand_Parent Class");
     }
 }
-class Circle extends Shape{
-    private int radius;
-    public void set(){
-        Scanner sc=new Scanner(System.in);
-        radius=sc.nextInt();
-    }
-    public int getRad(){
-        return radius;
+class Parent extends GrandParent{
+    public Parent(){
+        System.out.println("Parent Class");
     }
 }
-class Area extends Circle{
-    void calc(){
-        int radius=getRad();
-        System.out.println("Area of Circle is " + 3.14 * radius * radius);
+class Child extends Parent{
+    public Child(){
+        System.out.println("Child Class");
     }
 }
 public class Main{
     public static void main(String[] args){
-        Area obj=new Area();
-        obj.print();
-        obj.set();
-        obj.calc();
+        Child obj=new Child();
     }
 }
 ```
@@ -69,9 +50,6 @@ public class Main{
 
 
 ## OUTPUT:
-Input:2
-Result:Shapes Class
-Area of Circle is 12.56
 
 
 
