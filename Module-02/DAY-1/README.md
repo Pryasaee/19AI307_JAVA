@@ -54,9 +54,8 @@ cube();
 
 
 ## OUTPUT:
-Cube is: 125
 
-
+![image](https://github.com/user-attachments/assets/f09e3b92-2673-4797-af08-8f1626d3edac)
 
 
 ## RESULT:
