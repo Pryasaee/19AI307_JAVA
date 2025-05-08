@@ -1,27 +1,18 @@
 # Ex.No:4(B) INTRODUCTION TO JAVA INHERITANCE
 
 ## AIM:
-To create  a Java program to perform the inheritance concept for employee details.
-
+To create a parent class Animal with methods eat() and sleep(), and a child class Bird that inherits from Animal and adds a fly() method. The program demonstrates invoking methods from both classes using their respective instances.
 ## ALGORITHM :
-1.	Start the Program
-2.	Define class `Person`:
--	a) Declare `emp_id`, `name`, and `dept` as instance variables
-3.	Define class `Employee` that extends `Person`:
--	a) Define method `getDetails()`:
--	i) Create a `Scanner` object `sc`
--	ii) Read `name`, `emp_id`, and `dept` from user input
--	b) Define method `display()`:
--	i) Print the `name`, `emp_id`, and `dept`
-4.	Define `Main` class with `main` method:
--	a) Create an `Employee` object `emp`
--	b) Call `getDetails()` to input employee details
--	c) Call `display()` to output employee details
-5.	End
-
-
-
-
+1.Create the Animal Class:
+  Define two methods eat() and sleep() in the Animal class.
+2.Create the Bird Class (Child Class):
+  Inherit from the Animal class.
+  Define a new method fly() specific to the Bird class.
+3.Create Instances:
+  Instantiate an Animal object and invoke the eat() and sleep() methods.
+  Instantiate a Bird object and invoke the eat(), sleep(), and fly() methods.
+4.Invoke the Methods:
+  Call the appropriate methods on each instance to demonstrate method invocation.
 
 
 
@@ -37,38 +28,36 @@ RegisterNumber:
 
 ## Sourcecode.java:
 ```
-import java.util.Scanner;
-class Person {
-    int emp_id;
-    String name;
-    String dept;
+class Animal{
+    
+   void eat(){
+       System.out.println("Calling Eat Method");
+   }
+   void sleep(){
+       System.out.println("Calling Sleep Method");
+   }
 }
-class Employee extends Person {
-    void getDetails() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Employee Name: ");
-        name = sc.nextLine();
-        System.out.print("Enter Employee ID: ");
-        emp_id = sc.nextInt();
-        sc.nextLine(); 
-        System.out.print("Enter Department: ");
-        dept = sc.nextLine();
-    }
 
-    void display() {
-        System.out.println("\nEmployee Details:");
-        System.out.println("Name: " + name);
-        System.out.println("Employee ID: " + emp_id);
-        System.out.println("Department: " + dept);
-    }
+class Bird extends Animal{
+   
+  void fly(){
+      System.out.println("Calling Fly Method");
+  }
 }
-public class Main {
-    public static void main(String[] args) {
-        Employee emp = new Employee();
-        emp.getDetails();
-        emp.display();
-    }
-}
+
+public class Ans{
+  public static void main(String[] args){
+      
+    Bird obj=new Bird();
+    obj.eat();
+    obj.sleep();
+    obj.eat();
+    obj.sleep();
+    obj.fly();
+    
+  }
+}	
+
 ```
 
 
@@ -80,19 +69,12 @@ public class Main {
 
 ## OUTPUT:
 
-Enter Employee Name: John Doe
-Enter Employee ID: 12345
-Enter Department: IT
 
-Employee Details:
-Name: John Doe
-Employee ID: 12345
-Department: IT
 
 
 
 
 
 ## RESULT:
-Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
+The Animal class successfully demonstrates the invocation of eat() and sleep() methods, and the Bird class extends Animal to add a fly() method, with all methods being invoked successfully using instances of each class.
 
