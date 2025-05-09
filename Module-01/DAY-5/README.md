@@ -17,8 +17,8 @@ To write a Java program that divides the number 3210 by 3, takes the modulus of 
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
