@@ -21,8 +21,8 @@ To write a Java program that takes an integer input from the user and determines
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014
 */
 ```
 
