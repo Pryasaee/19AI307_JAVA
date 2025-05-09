@@ -51,7 +51,7 @@ public class Demo
 
 ## OUTPUT:
 
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/160228fb1b243ffa08abe0a2f84e173683ef9cfd/Module-01/DAY-2/java.png
 
 
 ## RESULT:
