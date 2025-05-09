@@ -51,7 +51,7 @@ public class Main{
 
 
 ## OUTPUT:
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/f1809208ac4eec2dc86a0340921c0373d2accdb9/Module-02/DAY-2/java.png
 
 
 
