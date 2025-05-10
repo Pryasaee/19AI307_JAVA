@@ -16,8 +16,8 @@ To create a Class with Name, Id, and a final Year variable, and to print the mem
  ```
 /*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:212222020014  
 */
 ```
 
