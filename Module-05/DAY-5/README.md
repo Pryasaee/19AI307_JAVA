@@ -12,8 +12,8 @@ To create a Java program that reads the student's name and ID at runtime using g
  ```
 /*
 Program to implement a HAS-A RelationShip
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
