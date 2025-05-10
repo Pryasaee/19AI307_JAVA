@@ -15,8 +15,8 @@ To demonstrate the concept of encapsulation in Java by creating a program that a
  ```
 /*
 Program to implement a Data Hiding & Encapsulation using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
