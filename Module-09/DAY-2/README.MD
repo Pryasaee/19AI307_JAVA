@@ -17,8 +17,8 @@ To create a java program to write data using ByteArrayOutputStream.
  ```
 /*
 Program to implement a BYTE ARRAY I/O using Java
-Developed by: 
-RegisterNumber:  
+Developed by:Madhumitha.Y 
+RegisterNumber:212222020014  
 */
 ```
 
@@ -41,7 +41,7 @@ System.out.println("Success...");
 
 ## OUTPUT:
 
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/6a94678a692f0cfa29f25c544bbda785a0d5eeec/Module-09/DAY-2/7.png
 
 ## RESULT:
 Thus, java program to write data using ByteArrayOutputStream was executed and verified successfully.
