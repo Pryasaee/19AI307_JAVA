@@ -13,8 +13,8 @@ To demonstrate class inheritance in Java by creating a GrandParent, Parent, and 
  ```
 /*
 Program to implement a MultiLevel Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
@@ -50,7 +50,7 @@ public class Main{
 
 
 ## OUTPUT:
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/6d2632382624c0841acae3fc0439ccfcf3f0b050/Module-06/DAY-2/4.png
 
 
 ## RESULT:
