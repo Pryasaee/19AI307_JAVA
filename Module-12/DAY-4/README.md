@@ -16,8 +16,8 @@ To write a Java program that displays elements from a PriorityQueue, inserts a n
  ```
 /*
 Program to implement a JAVA QUEUE using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:  212222020014
 */
 ```
 
