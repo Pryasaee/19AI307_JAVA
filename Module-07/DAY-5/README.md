@@ -15,8 +15,8 @@ To write a Java program that adds two numbers using a Thread created with the Ru
  ```
 /*
 Program to implement a Method Overloading in Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
