@@ -16,8 +16,8 @@ To write a Java program that reads a sentence, splits it into individual words, 
  ```
 /*
 Program to implement a StringBuilder Object Reference in Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:212222020014  
 */
 ```
 
