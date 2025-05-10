@@ -16,8 +16,8 @@ To write a Java program that writes a specified number of bytes from a string to
  ```
 /*
 Program to implement a IO File Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
