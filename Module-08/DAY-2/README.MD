@@ -12,8 +12,8 @@ To implement a Java program that writes a string to a file named "testout.txt" u
  ```
 /*
 Program to implement a IO File Reader/Writer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:  212222020014
 */
 ```
 
@@ -29,7 +29,7 @@ System.out.println("Wrote File Successfully");
 
 
 ## OUTPUT:
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/f50a789dc8e24f18d0bebd36e44ecbd0982b9385/Module-08/DAY-2/6.png
 
 
 ## RESULT:
