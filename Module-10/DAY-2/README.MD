@@ -17,8 +17,8 @@ To create a LinkedList, read three elements from the user, display the elements,
  ```
 /*
 Program to implement a JAVA LINKED LIST using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:  212222020014
 */
 ```
 
@@ -48,7 +48,7 @@ public class Main{
 
 ## OUTPUT:
 
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/de8ef7bdc331c34d588c30da6ce129ada26471f0/Module-10/DAY-2/8.png
 
 ## RESULT:
 The program successfully creates a LinkedList, reads three elements, displays the original list, clones the list using the clone() method, and displays the cloned list.
