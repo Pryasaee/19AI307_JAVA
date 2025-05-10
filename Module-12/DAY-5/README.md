@@ -14,8 +14,8 @@ To write a Java program that displays and removes the last element from a Deque 
  ```
 /*
 Program to implement a JAVA DEQUEUE
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:  212222020014
 */
 ```
 
