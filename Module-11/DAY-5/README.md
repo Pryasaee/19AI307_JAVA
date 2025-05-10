@@ -11,8 +11,8 @@
  ```
 /*
 Program to implement a HASHMAP
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
