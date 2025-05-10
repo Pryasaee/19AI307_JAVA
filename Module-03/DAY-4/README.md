@@ -17,8 +17,8 @@ To write a Java program that reads a string input and prints the tokens separate
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:212222020014  
 */
 ```
 
