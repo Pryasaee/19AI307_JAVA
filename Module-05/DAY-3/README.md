@@ -13,8 +13,8 @@ To create a Person class with getter and setter methods for the age attribute, a
  ```
 /*
 Program to implement a Getter and Setter using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
