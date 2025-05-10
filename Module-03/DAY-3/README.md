@@ -18,8 +18,8 @@ To write a Java program to demonstrate a mutable string using StringBuilder by m
  ```
 /*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
