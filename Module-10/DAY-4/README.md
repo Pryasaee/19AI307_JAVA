@@ -12,8 +12,8 @@ To demonstrate the use of HashSet in Java by adding elements to the HashSet and 
  ```
 /*
 Program to implement a JAVA HASHSET & LINKEDHASHSET using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014
 */
 ```
 
