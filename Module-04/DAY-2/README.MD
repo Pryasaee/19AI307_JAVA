@@ -21,8 +21,8 @@ To create a parent class Animal with methods eat() and sleep(), and a child clas
  ```
 /*
 Program to implement a Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
@@ -69,7 +69,7 @@ public class Ans{
 
 ## OUTPUT:
 
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/94e1b664d0113b2fa11da3b3fb97c2b746e2ad68/Module-04/DAY-2/2.png
 
 
 
