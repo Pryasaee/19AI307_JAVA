@@ -13,8 +13,8 @@ To write a Java program that sorts a list of custom elements using the Comparato
  ```
 /*
 Program to implement a COMPARABLE & COMPARATOR INTERFACE using Java
-Developed by: 
-RegisterNumber:  
+Developed by:Madhumitha.Y 
+RegisterNumber: 212222020014 
 */
 ```
 
@@ -48,7 +48,7 @@ public class Main{
 
 ## OUTPUT:
 
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/fda8d9d4452ba9dfa9da5881486a02936b686c2f/Module-12/DAY-2/10.png
 
 ## RESULT:
 The program sorts the LinkedList of Person objects in ascending order of age using a custom Comparator and displays the sorted list.
