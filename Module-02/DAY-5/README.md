@@ -18,8 +18,8 @@ Develop a Java Program to sort the elements of an array in ascending order.
  ```
 /*
 Program to implement a Smallest Element in an Array
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:212222020014 
 */
 ```
 
