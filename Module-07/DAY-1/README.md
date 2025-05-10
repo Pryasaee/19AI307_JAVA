@@ -7,7 +7,8 @@ To implement method overloading in Java by creating two methods named display—
 1.Define a class named OverloadDemo.
 2.Create display(int a, int b) method to print two integers.
 3.Create display(double x, double y) method to print two doubles.
-4.In the main() method, create an object of OverloadDemo and call both overloaded display methods with respective arguments.
+4.In the main() method, create an object of OverloadDemo and 
+5.call both overloaded display methods with respective arguments.
 
 
 
@@ -19,8 +20,8 @@ To implement method overloading in Java by creating two methods named display—
  ```
 /*
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
