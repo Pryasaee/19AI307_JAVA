@@ -13,8 +13,8 @@ To print the string "String Writer" to the output screen using StringWriter in J
  ```
 /*
 Program to implement a STRING WRITER
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
