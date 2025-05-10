@@ -15,8 +15,8 @@ To implement a Regular Inner Class in Java where the Employee class has private 
  ```
 /*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
