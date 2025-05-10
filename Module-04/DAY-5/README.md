@@ -17,8 +17,8 @@ To demonstrate inheritance by creating a parent class and a child class, where t
  ```
 /*
 Program to implement a Parameterized Constructor Using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:212222020014  
 */
 ```
 
