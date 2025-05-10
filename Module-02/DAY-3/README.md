@@ -13,13 +13,13 @@ To write a Java program that declares an array, initializes it with values 10, 2
 
 
 ## PROGRAM:
- ```
+
 /*
 Program to implement a Single Array using Java
-Developed by: 
-RegisterNumber:  
+Developed by:Madhumitha.Y 
+RegisterNumber: 212222020014
 */
-```
+
 
 ## Sourcecode.java:
 ```
