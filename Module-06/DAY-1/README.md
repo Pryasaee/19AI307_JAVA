@@ -5,7 +5,8 @@ To demonstrate the usage of a method-local inner class in Java by creating a Dep
 1.Create a Department class with a string "Financial and Management Department".
 2.Define a method display() in the Department class, which contains a method-local inner class Inner.
 3.The Inner class will have a print() method that displays the department name.
-4.In the main() method, create an object of the Department class and access both the display() and the inner class functionality.
+4.In the main() method, create an object of the Department class and 
+5.access both the display() and the inner class functionality.
 
 
 
@@ -15,8 +16,8 @@ To demonstrate the usage of a method-local inner class in Java by creating a Dep
  ```
 /*
 Program to implement a Inner Class using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
