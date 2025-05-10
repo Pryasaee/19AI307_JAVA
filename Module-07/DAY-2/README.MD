@@ -17,8 +17,8 @@ To demonstrate the control flow of try-catch-finally in Java when an ArrayIndexO
  ```
 /*
 Program to implement a Exception Handling-Finally using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
@@ -58,7 +58,7 @@ public class HelloWorld {
 
 
 ## OUTPUT:
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/d9de50ae8ab08c266084c5cd0e9f5eae8de3ea32/Module-07/DAY-2/5.png
 
 
 
