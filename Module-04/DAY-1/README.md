@@ -19,8 +19,8 @@ To create a Java class Calculator with a static method powerInt(int num1, int nu
  ```
 /*
 Program to implement a Constructor using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber: 212222020014 
 */
 ```
 
