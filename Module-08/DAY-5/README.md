@@ -19,8 +19,8 @@ To write a Java program that reads content from a user-input string using the Re
  ```
 /*
 Program to implement a INPUT STREAM READER
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:  212222020014
 */
 ```
 
