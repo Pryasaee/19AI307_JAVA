@@ -15,8 +15,8 @@ To read a double value from a file "OutputFile.txt" using DataInputStream and th
  ```
 /*
 Program to implement a DATA I/O STREAM using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Madhumitha.Y
+RegisterNumber:  212222020014
 */
 ```
 
